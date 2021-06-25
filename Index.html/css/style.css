@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header, footer {
+    Width: 1024px;
+    Height: 100px;
+    background-color: #222222;  
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado {
+    position: absolute;
+    padding: 10px; 770px; 10px; 20px;
+}
+
+.menu {
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezado {
+    position: relative;
+    padding: 10px; 770px; 10px; 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    justify-content: center;
+    padding: 35px 10px;
+}
+
+
+.promo {
+
+    position: absolute;
+    width: 350.64px;
+    height: 28px;
+    left: 38.98px;  
+    top: 155px;
+    color: #FC200C;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+    background-image: url(../img/delivery.jpg);
+    border-radius: 5px;
+}
+
+.podio {
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+h2 {
+    color: #FC200C;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h3 {
+    color: #222222;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.top {
+    position: absolute;
+    width: 110.44px;
+    height: 23px;
+    left: 583px;
+    top: 247px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.pie {
+    color: #F3F3F3;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2 {
+    padding-top: 35px; 
+    padding-right: 42px;
+    padding-bottom: 35px;
+    padding-left: 770px;
+}
