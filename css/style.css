@@ -9,39 +9,43 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+body {
+    height: 600px;
+    background: #F3F3F3;
+}
+
 header, footer {
-    Width: 1024px;
-    Height: 100px;
     background-color: #222222;  
-    align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    padding: 10px 70px 10px 20px;
 }
 
 .encabezado {
-    position: absolute;
-    padding: 10px; 770px; 10px; 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
     color: white;
-    font-size: 16px;
-    line-height: 19px;
+    width: 400px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
-.encabezado {
-    position: relative;
-    padding: 10px; 770px; 10px; 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+header div.encabezado div.menu li {
+    padding-left: 5px;
 }
-
 
 main {
+    margin-left: 40px;
     display: flex;
     flex-wrap: wrap;
     background-color: #FFFFFF;
@@ -49,9 +53,12 @@ main {
     padding: 35px 10px;
 }
 
+span {
+    color: #F3F3F3;
+}
+
 
 .promo {
-
     position: absolute;
     width: 350.64px;
     height: 28px;
@@ -59,7 +66,7 @@ main {
     top: 155px;
     color: #FC200C;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 70px;
     padding-top: 20px;
     font-size: 24px;
     width: 490px;
@@ -67,6 +74,7 @@ main {
     left: 19px;
     top: 135px;
     background-image: url(../img/delivery.jpg);
+    margin-left: 25px;
     border-radius: 5px;
 }
 
@@ -81,6 +89,8 @@ main {
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
+    padding-top: 26px;
+    padding-left: 150px;
 }
 
 h2 {
@@ -88,6 +98,7 @@ h2 {
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
+    align-items: center;
 }
 
 h3 {
@@ -95,23 +106,19 @@ h3 {
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
+    padding-top: 25px;
+    padding-right: 124px;
 }
 
 .top {
-    position: absolute;
-    width: 110.44px;
-    height: 23px;
-    left: 583px;
-    top: 247px;
-
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+    padding-top: 25px;
 
 }
 
@@ -122,11 +129,13 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 40px 20px 20px;
 }
+
 
 .logo2 {
     padding-top: 35px; 
     padding-right: 42px;
     padding-bottom: 35px;
-    padding-left: 770px;
+    padding-left: 42px;
 }
